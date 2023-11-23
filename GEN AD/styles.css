@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 178px;
+    background-color: #A1EF8B;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;    
+    align-items: center;
+}
+
+.left h1 {
+    font-weight: 400;
+}
+
+.right {
+    height: 100%;
+    padding-right: 5%;
+}
+
+.search-login {
+    display: flex;
+    align-items: center;
+    height: 60%;
+}
+
+.login-button {
+    margin-right: 2%;
+}
+
+.login-button a {
+    padding: 4% 8%;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.search-bar {
+    width: 443px;
+    height: 30px;
+    background-color: white;
+}
+
+.navlinks {
+    margin-top: 40px;
+}
+
+.navlinks a {
+    color: black;
+    margin: 0 5%;
+}
+
+
+.content {
+    background-color: #D3F6DB;
+    padding: 4% 2%;
+}
+
+.featured-img {
+    width: 100%;
+}
+
+.bottom {
+    display: flex;
+}
+
+.bottom img {
+    margin: 1% 1%;
+}
+
+.bottom-right {
+    text-align: center;
+}
+
+.tilted-box {
+    width: 80%;
+    height: fit-content;
+    background-color: white;
+    border: 3px solid black;
+    margin: -30px auto 10%;
+    rotate: z -5deg;
+}
+
+.bottom-right a {
+    background-color: #A1EF8B;
+    color: black;
+    border-radius: 10px;
+    padding: 4% 10%;
+    font-size: 30px;
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 2% 0;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    margin-left: 2%;
+}
+
+.row span {
+    margin: 2% 1%;
+    white-space: nowrap;
+    line-height: 2.5;
+}
+
+.footer-logo {
+    text-align: center;
+    margin-right: 2%;
+}
+
+.footer-logo .logo-container {
+    display: flex;
+}
+
+.left-ellipse {
+    position: absolute;
+    z-index: 1;
+    bottom: 0%;
+}
+
+.middle-ellipse {
+    position: absolute;
+    z-index: 1;
+    left: 40%;
+    bottom: 0%;
+}
